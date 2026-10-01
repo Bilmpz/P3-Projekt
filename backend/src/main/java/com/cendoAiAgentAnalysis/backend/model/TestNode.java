@@ -4,7 +4,7 @@ import org.springframework.data.neo4j.core.schema.Id; //Imports the id annotatio
 import org.springframework.data.neo4j.core.schema.Node; //Node annotation. Spring dataNeo4j knows this java class represents a Neo4j node
 
 @Node("TestNode") // the java class represents a Neo4j node that has the label TestNode
-public class TestNode { /7Creates a regular java class
+public class TestNode { //Creates a regular java class
 
     @Id //The imported Id notation. It marks the next variable as the nodes id
     private String id;
